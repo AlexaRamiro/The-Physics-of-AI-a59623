@@ -25,6 +25,6 @@ public class AIShell : MonoBehaviour {
     void Update() {
 
 
-        this.transform.forward = rb.velocity;
+        this.transform.forward = rb.linearVelocity;
     }
 }
